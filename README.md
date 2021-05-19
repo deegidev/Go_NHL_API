@@ -1,9 +1,10 @@
 # youtubenhl-go
 
-Used to learn about:
+My first Golang project via: EQuimper on Youtube
+I used this project to learn about:
 1. Goroutines
 2. Writing to files in Go 
-3. Fetching dada from an external API 
+3. Fetching data from an external API 
 4. WaitGroup 
 5. Channels 
 
@@ -11,7 +12,7 @@ Have 32 teams and want to fetch the stats from each user of their roster.
 Use 1 API call to recieve all the teams,
  Then 32 API calls to recieve the rest of each team 
  These API calls took 231.1625ms
- Concurrency allowed for instead of 32 API calls 1-by-1, allows for all the calls to be made in one shot all together.  
+ Concurrency allowed for all the calls to be made in one shot all together, instead of 32 API calls 1-by-1.  
  
  STEPS
  1. Got static API from statsapi.web.nhl.com --> translated it on JSON-to-Go to get structs 
