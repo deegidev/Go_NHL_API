@@ -1,6 +1,6 @@
 # youtubenhl-go
 
-My first Golang project via: EQuimper on Youtube.
+Daijas first Golang project tutorial.  
 I used this project to learn about:
 1. Goroutines
 2. Writing to files in Go 
